@@ -32,7 +32,7 @@
 
 | Status | Operator | Name | Example | Returns |
 |  ----  |   :--:   | :--  |   :-:   |   ---   |
-|Work in progress|`=`|||||
+|Work in progress|`=`|Assign||||
 |To be implemented|`+=`||||
 |To be implemented|`-=`|||||
 |To be implemented|`*=`|||||
@@ -75,7 +75,7 @@
 
 | Status | Operator | Name | Example | Returns |
 |  ----  |   :--:   | :--  |   :-:   |   ---   |
-|Work in progress|`==`|Equal to|||
+|Work in progress|`==`|Equal to|`5 == `||
 |To be implemented|`===`|Strict equality|||
 |Work in progress|`!=`|Not equal to||||
 |To be implemented|`!==`|Strict inequality|||
@@ -84,6 +84,13 @@
 |Work in progress|`<`|Less than||||
 |To be implemented|`<=`|Less than or equal to|||
 
+#### Miscellaneous Operators
+
+| Status | Operator | Name | Example | Returns |
+|  ----  |   :--:   | :--  |   :-:   |   ---   |
+| - [x] test |`#`|Preprocessor|``||
+||`@`|Attribute assignment|``||
+||`->`|Pointer member access|``||
 
 ## Statements
 
