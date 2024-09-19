@@ -32,56 +32,57 @@
 
 | Status | Operator | Name | Example | Returns |
 |  ----  |   :--:   | :--  |   :-:   |   ---   |
-||`=`|||||
-||`+=`||||
-||`-=`|||||
-||`*=`|||||
-||`**=`|||||
-||`/=`|||||
-||`//=`|||||
-||`%=`|||||
-||`&=`|||||
-||`\|=`|||||
-||`^=`|||||
-||`<<=`|||||
-||`>>=`|||||
-||`??=`|||||
+|Work in progress|`=`|||||
+|To be implemented|`+=`||||
+|To be implemented|`-=`|||||
+|To be implemented|`*=`|||||
+|To be implemented|`**=`|||||
+|To be implemented|`/=`|||||
+|To be implemented|`//=`|||||
+|To be implemented|`%=`|||||
+|To be implemented|`&=`|||||
+|To be implemented|`\|=`|||||
+|To be implemented|`^=`|||||
+|To be implemented|`<<=`|||||
+|To be implemented|`>>=`|||||
+|To be implemented|`??=`|||||
 
 
 #### Bitwise Operators
 
 | Status | Operator | Name | Example | Returns |
 |  ----  |   :--:   | :--  |   :-:   |   ---   |
-||`&`|||||
-||`\|`|||||
-||`^`|||||
-||`~`|||||
-||`<<`|||||
-||`>>`|||||
-||`>>>`|||||
+|Work in progress|`&`|||||
+|Work in progress|`\|`|||||
+|Work in progress|`^`|||||
+|Work in progress|`~`|||||
+|Work in progress|`<<`|||||
+|Work in progress|`>>`|||||
+|Work in progress|`>>>`|||||
 
 
 #### Logical Opperators
 
 | Status | Operator | Name | Example | Returns |
 |  ----  |   :--:   | :--  |   :-:   |   ---   |
-||`&&`|||||
-||`\|\|`|||||
-||`!`|||||
+|To be implemented|`&&`|AND||||
+|To be implemented|`\|\|`|OR||||
+|To be implemented|`^^`|XOR||||
+|To be implemented|`!`|NOT||||
 
 
 #### Relational Operators
 
 | Status | Operator | Name | Example | Returns |
 |  ----  |   :--:   | :--  |   :-:   |   ---   |
-|Work in progress|`==`|Equal to value|||
-|To be implemented|`===`|Equal to value and type|||
-|Work in progress|`!=`|Not equal to value||||
-|To be implemented|`!==`|Not equal to value and type|||
+|Work in progress|`==`|Equal to|||
+|To be implemented|`===`|Strict equality|||
+|Work in progress|`!=`|Not equal to||||
+|To be implemented|`!==`|Strict inequality|||
 |Work in progress|`>`|Greater than||||
-|To be implemented|`>=`|Greater than or equal to value|||
+|To be implemented|`>=`|Greater than or equal to|||
 |Work in progress|`<`|Less than||||
-|To be implemented|`<=`|Less than or equal to value|||
+|To be implemented|`<=`|Less than or equal to|||
 
 
 ## Statements
