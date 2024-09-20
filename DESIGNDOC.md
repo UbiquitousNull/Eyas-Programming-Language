@@ -14,7 +14,7 @@
 #### Arithmetic Operators
 
 | Status | Operator | Name | Equation | Example | Returns |
-|  ----  |   :--:   | :--  |   ----   |   :-:   |   ---   |
+|  ----  |   :--:   | :--  |   ----   |   :--   |   ---   |
 |Work in progress|`+`|Plus|$a\;+\;b$|`5 + 5`|Returns the sum of $a$ and $b$.|
 |Work in progress|`+`|Unary positive|$+x$|`+5`|Specifies value as positive.|
 |Work in progress|`-`|Minus|$a\;-\;b$|`5 - 3`|Returns the result of subtracting $b$ from $a$.|
@@ -31,7 +31,7 @@
 #### Assignment Operators
 
 | Status | Operator | Name | Example | Returns |
-|  ----  |   :--:   | :--  |   :-:   |   ---   |
+|  ----  |   :--:   | :--  |   :--   |   ---   |
 |Work in progress|`=`|Assign||||
 |To be implemented|`+=`||||
 |To be implemented|`-=`|||||
@@ -51,7 +51,7 @@
 #### Bitwise Operators
 
 | Status | Operator | Name | Example | Returns |
-|  ----  |   :--:   | :--  |   :-:   |   ---   |
+|  ----  |   :--:   | :--  |   :--   |   ---   |
 |Work in progress|`&`|||||
 |Work in progress|`\|`|||||
 |Work in progress|`^`|||||
@@ -64,7 +64,7 @@
 #### Logical Opperators
 
 | Status | Operator | Name | Example | Returns |
-|  ----  |   :--:   | :--  |   :-:   |   ---   |
+|  ----  |   :--:   | :--  |   :--   |   ---   |
 |To be implemented|`&&`|AND||||
 |To be implemented|`\|\|`|OR||||
 |To be implemented|`^^`|XOR||||
@@ -74,7 +74,7 @@
 #### Relational Operators
 
 | Status | Operator | Name | Example | Returns |
-|  ----  |   :--:   | :--  |   :-:   |   ---   |
+|  ----  |   :--:   | :--  |   :--   |   ---   |
 |Work in progress|`==`|Equal to|`5 == `||
 |To be implemented|`===`|Strict equality|||
 |Work in progress|`!=`|Not equal to||||
@@ -84,13 +84,15 @@
 |Work in progress|`<`|Less than||||
 |To be implemented|`<=`|Less than or equal to|||
 
+
 #### Miscellaneous Operators
 
 | Status | Operator | Name | Example | Returns |
-|  ----  |   :--:   | :--  |   :-:   |   ---   |
-| - [x] test |`#`|Preprocessor|``||
-||`@`|Attribute assignment|``||
-||`->`|Pointer member access|``||
+|  ----  |   :--:   | :--  |   :--   |   ---   |
+|To be implemented|`#`|Preprocessor|``||
+|To be implemented|`@`|Attribute assignment|`@override`||
+|To be implemented|`->`|Pointer member access|`ptr->member`||
+|To be implemented|`?:`|Ternary Conditional|`x = (condition) ? expressionTrue : expressionFalse; `||
 
 ## Statements
 
@@ -99,3 +101,23 @@
 ## Types
 
 ### Variables
+
+## Preprocessor directives
+
+### libraries and files
+
+|Status|label|Example|Result|
+| ---- | :-: | :---- | ---- |
+|To be implemented|`#include`|`#include libName` or `#include libName:fileName`|Includes a library or single file.|
+|To be implemented|`#lib`|`#lib libName path`|Includes user defined library under libName.|
+|To be implemented|`#exlib`|`#exlib libName` or `#exlib libName:fileName`|Grabs a whole external library or single file. Does not include.|
+
+> !NOTE
+> When using `#include` you can define a label for the library and/or file.
+> ```c
+> // include with file specifier 
+> #include eyio:input 
+>
+> // file specifier include with labels
+> #include eyio:input io_:in_
+> ```
